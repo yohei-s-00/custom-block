@@ -1,0 +1,27 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/custom-block",
+	"version": "0.1.0",
+	"title": "Custom Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "custom-block",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes":{
+		"youtubeId":{
+			"type": "string" 
+		} ,
+		"apiKey": {
+			"type": "string"
+		},
+		"live": {
+			"type": "boolean"
+		}
+	}
+}
